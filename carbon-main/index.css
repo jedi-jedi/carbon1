@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+    font-family: sans-serif;
+}
+
+
+/* section1 */
+.sec1{
+    border: thin solid black;
+    background-image: linear-gradient(to right, #2C1762 52%, #E10773);
+    width: 100%;
+}
+
+.container{
+    border: thin solid teal;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 12rem;
+    /* flex-wrap: wrap; */
+    /* width: 95%; */
+}
+
+.txt1{
+    border: thin solid goldenrod;
+    padding-left: 30px;
+}
+
+.bank{
+    font-size: 3.2rem;
+    color: white;
+}
+
+.pow{
+    background-image: linear-gradient(129deg, white,  #E10773), linear-gradient(to bottom, white, white);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    display: inline;
+}
+
+.loan{
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.CBN{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.CBN .nig{
+    display: inherit;
+    flex-direction: inherit;
+    flex-wrap: inherit;
+}
+
+.CBN .nig p{
+    color: white;
+}
+
+.CBN .ndi{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.CBN .ndi p{
+    color: white;
+}
+
+/* sec1-right-side */
+.imgcon{
+    border: thin solid tomato;
+    position: relative;
+}
+
+.sna1{
+    width: 400px;
+    position: absolute;
+    margin-left: 110px;
+}
+
+.lady{
+    width: 300px;
+    position: relative;
+}
+
+.mon{
+    width: 200px;
+    position: relative;
+}
