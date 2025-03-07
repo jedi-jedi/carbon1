@@ -1,0 +1,89 @@
+.bggray {
+    background-color: rgb(230, 247, 255);
+    width: auto;
+    height: auto;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    border-radius: 2rem;
+    /* opacity: 0.2; */
+    margin-top: 5rem;
+    padding-top: 3rem;
+    padding-left: 3rem;
+    padding-right: 5rem;
+    padding-bottom: 3rem;
+    display: flex;
+}
+h1, p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+.desc {
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+.desc-container {
+    width: 60%;
+    height: auto;
+}
+.calculator-container {
+    width: 60%;
+    height: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    border: solid black 1px;
+    /* margin-left: 5rem; */
+    border-radius: 1.5rem;
+}
+.baba {
+    display: flex;
+    justify-content: space-between;
+}
+.circle {
+    background: linear-gradient(to right, rgb(0, 0, 107), purple);
+    height: 2.5rem;
+    width: 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    border: solid 3px rgb(0, 0, 107);
+}
+.circle h1 {
+    color: #fff;
+}
+.rangeit {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 10px;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 107);
+    outline: none;
+}
+
+.rangeit::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: rgba(255, 0, 0);
+    cursor: pointer;
+    border: solid 3px rgb(0, 0, 107);
+}
+.parent {
+    display: flex;
+    margin-top: 2rem;
+}
+.btn {
+    background: transparent;
+    border: solid 2px purple;
+    height: 3.5rem;
+    width: 9rem;
+    border-radius: 0.5rem;
+    color: purple;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-left: 1rem;
+}

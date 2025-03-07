@@ -1,0 +1,133 @@
+.logo {
+    width: 10rem;
+}
+
+h1, p, label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+a {
+    text-decoration: none;
+}
+.acct {
+    background-color: rgb(4, 0, 255);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 1rem;
+    color: #fff;
+}
+.head {
+    font-size: 18px;
+}
+.parent {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+.senior {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem !important;
+}
+.aside {
+    width: 40%;
+    background-color: rgb(241, 241, 241, 0.888);
+    height: auto;
+    border-radius: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+.asideb {
+    width: 60%;
+    height: auto;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 7rem;
+}
+.img-div {
+    width: 100%;
+    height: 25rem;
+    border: solid 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Unlock {
+    font-size: 2.3rem;
+    color: purple;
+}
+.enjoy {
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: 100;
+    margin-top: -2rem;
+}
+.line {
+    background-color: #000;
+    width: 7rem;
+    height: 3px;
+    border-radius: 15px;
+}
+.enjoyb {
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: 100;
+}
+.img {
+    width: 10rem;
+}
+.mail {
+    width: 60%;
+    height: 40px;
+    border-radius: 0.5rem;
+    border: solid 1px #333;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1rem;
+    margin-top: 0.6rem;
+}
+.checkbox {
+    margin-top: -0.1rem;
+}
+.checkbox2 {
+    font-size: 10px;
+    background-color: rgb(255, 206, 71);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 0.3rem;
+}
+.button-log {
+    width: 66%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(12, 12, 226);
+    color: white;
+    cursor: pointer;
+}
+.pass{
+    padding-left: 120px;
+}
+.need{
+    padding-left: 90px;
+}
+.need span a{
+    color: blue;
+}
+.car{
+    padding-left: 30px;
+}
+
+.car p{
+    font-size: 12px;
+    color: grey;
+}

@@ -1,0 +1,84 @@
+/* Responsive Design */
+@media screen and (max-width: 1200px) {
+    .bggray {
+        margin-left: 3rem;
+        margin-right: 3rem;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .desc-container, .calculator-container {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .bggray {
+        margin-left: 2rem;
+        margin-right: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .desc-container, .calculator-container {
+        width: 90%;
+    }
+    .circle {
+        width: 7rem;
+        height: 2rem;
+    }
+    .circle h1 {
+        font-size: 1rem;
+    }
+    .rangeit {
+        height: 8px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .bggray {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .desc {
+        font-size: 1rem;
+    }
+    .desc-container, .calculator-container {
+        width: 100%;
+    }
+    .baba {
+        flex-direction: column;
+        align-items: center;
+    }
+    .circle {
+        width: 6rem;
+        height: 1.8rem;
+    }
+    .circle h1 {
+        font-size: 0.9rem;
+    }
+    .btn {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .desc {
+        font-size: 0.9rem;
+    }
+    .circle {
+        width: 5rem;
+        height: 1.5rem;
+    }
+    .circle h1 {
+        font-size: 0.8rem;
+    }
+    .rangeit {
+        height: 6px;
+    }
+    .btn {
+        width: 100%;
+        font-size: 0.9rem;
+    }
+}

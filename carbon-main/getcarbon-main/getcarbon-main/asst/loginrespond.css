@@ -1,0 +1,86 @@
+/* Responsive Design */
+@media screen and (max-width: 1200px) {
+    .parent, .senior {
+        justify-content: center;
+    }
+    .aside, .asideb {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .parent {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .senior {
+        flex-direction: column;
+        align-items: center;
+    }
+    .aside, .asideb {
+        width: 90%;
+        padding: 2rem;
+    }
+    .img-div {
+        height: 20rem;
+    }
+    .Unlock {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .enjoy, .enjoyb {
+        text-align: center;
+    }
+    .button-log {
+        width: 100%;
+    }
+    .pass, .need {
+        text-align: center;
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .aside, .asideb {
+        width: 100%;
+        padding: 1rem;
+    }
+    .Unlock {
+        font-size: 1.8rem;
+    }
+    .img {
+        width: 80%;
+    }
+    .mail {
+        width: 100%;
+    }
+    .button-log {
+        width: 100%;
+    }
+    .car p {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .aside, .asideb {
+        padding: 0.5rem;
+    }
+    .Unlock {
+        font-size: 1.5rem;
+    }
+    .enjoy, .enjoyb {
+        font-size: 1rem;
+    }
+    .mail {
+        font-size: 0.9rem;
+    }
+    .button-log {
+        font-size: 1rem;
+        padding: 15px;
+    }
+    .car p {
+        font-size: 10px;
+    }
+}
